@@ -96,7 +96,7 @@ if buscar:
                 if es_noche: 
                     st.session_state.pista_sugerida += "\n\n✅ Config. Cruzada Nocturna (Arr 02 / Dep 24L)"
                 elif dir_viento == "VRB" or vel_viento <= 10 or (160 <= dir_grados <= 340): 
-                    st.session_state.pista_sugerida += "\n\n✅ Configuración Oeste (Arr 25R / Dep 24L) - Preferencial / Viento favorable"
+                    st.session_state.pista_sugerida += "\n\n✅ Configuración Oeste (Arr 24R / Dep 24L) - Preferencial / Viento favorable"
                 else: 
                     st.session_state.pista_sugerida += "\n\n⚠️ Configuración Este (Arr 07L / Dep 07R) - Viento de cola > 10kt en Oeste"
 
